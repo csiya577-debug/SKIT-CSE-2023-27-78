@@ -1,0 +1,33 @@
+{
+  "best_model": "XGBoost",
+  "target_definition": "the dataset's own Delay label (1 = delayed)",
+  "feature_columns": [
+    "dow",
+    "dep_hour",
+    "airline",
+    "origin",
+    "dest",
+    "sched_elapsed"
+  ],
+  "chronological_split": false,
+  "airlines_seen": [
+    "9E",
+    "AA",
+    "AS",
+    "B6",
+    "CO",
+    "DL",
+    "EV",
+    "F9",
+    "FL",
+    "HA",
+    "MQ",
+    "OH",
+    "OO",
+    "UA",
+    "US",
+    "WN",
+    "XE",
+    "YV"
+  ]
+}
